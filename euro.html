@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$DevConverter</title>
+    <title>$DevConverter - Euro</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
@@ -22,19 +22,19 @@
             <a href="#">Home</a>
             <a href="index.html">Real</a>
             <a href="dolar.html">Dólar</a>
-            <a href="euro.html">Euro</a>
+            <a href="#">Euro</a>
         </nav>
     </header>
 
     <main>
-        <h2>Real (R$)</h2>
+        <h2>Euro (€)</h2>
         <form id="form">
             <section class="inputs-conteiner">
                 <div class="form-group">
-                    <label class="txtlabel" for="value-real">Valor a ser convertido (R$)</label>
+                    <label class="txtlabel" for="value-real">Valor a ser convertido (EUR €)</label>
                     <input 
                         type="number"
-                        placeholder="R$20,00"
+                        placeholder="€20,00"
                         id="value-real"
                         name="value-real"
                         max="1000000"
@@ -45,7 +45,7 @@
                     <label class="txtlabel" for="currency">Escolha a moeda</label>
                     <select id="currency">
                         <option value="">Selecione...</option>
-                        <option value="eur">Euro</option>
+                        <option value="rel">Real</option>
                         <option value="dol">Dólar</option>
                     </select>
                 </div>
@@ -62,6 +62,6 @@
             &copy; José Brenon Guilherme, 2024. Todos os direitos reservados.
         </span>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/euro.js"></script>
 </body>
 </html>
