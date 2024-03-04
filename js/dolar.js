@@ -30,7 +30,7 @@ function converter() {
         animateResult()
     }else if (selectedCurrency.value === 'rel') {
         valueConverted = inputValue.value / real
-        result.innerHTML = valueFormatter('en-US', 'BRL')
+        result.innerHTML = valueFormatter('pt-BR', 'BRL')
         animateResult()
     }
     inputValue.value = ''
